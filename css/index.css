@@ -213,3 +213,20 @@ header nav a {
   text-decoration: underline;
   font-weight: bold;
 }
+.mainSection .products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 2%;
+}
+.mainSection .products .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.mainSection .products .links figure {
+  width: 20%;
+}
