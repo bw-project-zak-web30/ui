@@ -240,6 +240,9 @@ h1 {
 .people .person figure figcaption {
   font-size: 2.2rem;
 }
+.people .person figure figcaption a {
+  color: #3282b8;
+}
 footer {
   background: #0f4c75;
   text-align: center;
