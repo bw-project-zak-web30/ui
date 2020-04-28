@@ -1,12 +1,45 @@
 header {
+    @media (max-width: 500px) {
+        .flexIn(column, space-between, center);
+    }
     width: 100%;
+    background: @secondDarkest;
     .flexIn(row, space-between, center);
     nav {
+        @media (max-width: 1300px) {
+            width: 40%;
+        }
+        @media (max-width: 1000px) {
+            width: 50%;
+        }
+        @media (max-width: 750px) {
+            width: 60%;
+        }
+        @media (max-width: 500px) {
+            width: 100%;
+            padding-bottom: 20%;
+            margin: 0;
+        }
+
         width: 30%;
+        margin: 0 2%;
         .flexIn(row, space-between, center);
         align-items: center;
         a {
             font-size: 2.2rem;
+            color: white;
+            &:hover {
+                color: @lightest;
+            }
         }
+    }
+    img {
+        @media (max-width: 500px) {
+            padding: 0;
+            margin: 2% 30%;
+            width: 40%;
+        }
+        width: 50%;
+        padding: 5%;
     }
 }
