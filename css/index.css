@@ -203,9 +203,9 @@ header nav {
 }
 @media (max-width: 500px) {
   header nav {
-    width: 100%;
-    padding-bottom: 20%;
-    margin: 0;
+    width: 95%;
+    padding-bottom: 10%;
+    margin: 10% 2.5% 0;
   }
 }
 header nav a {
@@ -319,7 +319,7 @@ header img {
   justify-content: space-between;
   align-content: center;
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .mainSection .products .links {
     display: flex;
     flex-direction: column;
@@ -330,10 +330,11 @@ header img {
 .mainSection .products .links figure {
   width: 20%;
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .mainSection .products .links figure {
-    width: 100%;
+    width: 80%;
     margin-bottom: 1%;
+    margin-left: 10%;
   }
 }
 .mainSection .products .links figure figcaption {
@@ -354,6 +355,11 @@ header img {
 .mainSection .products .links figure img {
   height: 30vh;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .mainSection .products .links figure img {
+    height: 20vh;
+  }
 }
 footer {
   background: #0f4c75;
