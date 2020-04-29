@@ -126,11 +126,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
 * {
   box-sizing: border-box;
 }
 html {
   font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
 }
 body {
   margin: 2% 5%;
