@@ -9,9 +9,9 @@
         }
 
         a {
-            @media (max-width: 1100px) {
+            @media (max-width: 1200px) {
                 .customButton(@lightest, 30%, @darkest);
-                margin: 10% 30%;
+                margin: 15% 30%;
             }
             @media (max-width: 800px) {
                 position: static; 
@@ -55,11 +55,17 @@
                 .flexIn(column, center, center);
             }
             .flexIn(row, space-between, center);
+            @media (max-width: 1500px) {
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
             figure {
+                @media (max-width: 1500px) {
+                    width: 40%;
+                }
                 @media (max-width: 1000px) {
                     width: 80%;
                     margin-bottom: 2%;
-                    margin-left: 10%;
                 }
                 width: 20%;
                 figcaption {
