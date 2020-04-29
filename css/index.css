@@ -289,6 +289,7 @@ header img {
   position: absolute;
   background: rgba(255, 255, 255, 0.5);
   color: #0f4c75;
+  margin-top: 2%;
 }
 @media (max-width: 800px) {
   .mainSection .banner h2 {
@@ -333,7 +334,7 @@ header img {
 @media (max-width: 1000px) {
   .mainSection .products .links figure {
     width: 80%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     margin-left: 10%;
   }
 }
