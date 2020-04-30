@@ -1,0 +1,30 @@
+.mainBody {
+    text-align: center;
+    margin-top: 2%;
+    h2 {
+        margin-bottom: 2%;
+    }
+    @media (max-width: 600px) {
+        width: 60%;
+        margin: 0 20%;
+    }
+    form {
+        @media (max-width: 600px) {
+            flex-wrap: nowrap;
+            width: 100%;
+            margin: 0;
+        }
+        input {
+            border: 1px solid black;
+        }
+        textarea {
+            border: 1px solid black;
+        }
+        text-align: start;
+        .flexIn(column, center, center);
+        flex-wrap: wrap;
+        font-size: 1.6rem;
+        width: 80%;
+        margin: 0 10%;
+    }
+}
