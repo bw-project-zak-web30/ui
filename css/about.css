@@ -203,9 +203,9 @@ header nav {
 }
 @media (max-width: 500px) {
   header nav {
-    width: 100%;
-    padding-bottom: 20%;
-    margin: 0;
+    width: 95%;
+    padding-bottom: 10%;
+    margin: 10% 2.5% 0;
   }
 }
 header nav a {
@@ -269,26 +269,26 @@ footer nav {
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
-  width: 15%;
+  width: 30%;
 }
 @media (max-width: 1600px) {
-  footer nav {
-    width: 20%;
-  }
-}
-@media (max-width: 1300px) {
-  footer nav {
-    width: 30%;
-  }
-}
-@media (max-width: 800px) {
   footer nav {
     width: 40%;
   }
 }
+@media (max-width: 1300px) {
+  footer nav {
+    width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  footer nav {
+    width: 70%;
+  }
+}
 @media (max-width: 600px) {
   footer nav {
-    width: 60%;
+    width: 80%;
   }
 }
 footer nav a {

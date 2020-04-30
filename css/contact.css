@@ -278,26 +278,26 @@ footer nav {
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
-  width: 20%;
+  width: 30%;
 }
 @media (max-width: 1600px) {
-  footer nav {
-    width: 25%;
-  }
-}
-@media (max-width: 1300px) {
-  footer nav {
-    width: 30%;
-  }
-}
-@media (max-width: 800px) {
   footer nav {
     width: 40%;
   }
 }
+@media (max-width: 1300px) {
+  footer nav {
+    width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  footer nav {
+    width: 70%;
+  }
+}
 @media (max-width: 600px) {
   footer nav {
-    width: 60%;
+    width: 80%;
   }
 }
 footer nav a {
